@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import HomeComponent from './components/HomeComponent';
 import ProductDetailsComponent from './components/ProductDetailsComponent';
-import './App.css'; // Import the CSS file
+
 
 const AppRouter = () => {
   return (

@@ -37,7 +37,7 @@
   }
 }
 body {
-  background-image: url('C:/temp/images/analysis/pharma.jpg');
+  background-image: url('./images/pharma.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

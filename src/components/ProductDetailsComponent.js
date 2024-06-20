@@ -1,14 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const ProductDetailsComponent = () => {
-  return (
-    <div>
-    <h2>Product Details</h2>
-    <p>Details of the selected product will be shown here.</p>
-    <Link to="/">Back to Home</Link>
-</div>
-  )
-}
+    const navigate = useNavigate();
 
-export default ProductDetailsComponent
+    const handleNavigation = () => {
+        navigate('/');
+    };
+
+    return (
+        <div>
+            <h2>Product Details</h2>
+            <p>Details of the selected product will be shown here.</p>
+            <button className="btn btn-primary" onClick={handleNavigation}>Go to Home</button>
+        </div>
+    );
+};
+
+export default ProductDetailsComponent;
