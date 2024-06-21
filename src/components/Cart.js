@@ -14,7 +14,7 @@ const Cart = ({ cart, removeFromCart }) => {
                             <img src={item.imageUrl} alt={item.name} style={{ width: '50px', height: '50px', marginRight: '10px' }} />
                             <div>
                                 <p>{item.name} - ${item.price}</p>
-                                <button className="btn btn-primary" onClick={() => removeFromCart(item)}>Remove</button>
+                                <button className="btn btn-danger" onClick={() => removeFromCart(item)}>Remove</button>
                             </div>
                         </li>
                     ))}
