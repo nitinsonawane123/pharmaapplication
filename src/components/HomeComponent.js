@@ -22,22 +22,27 @@ const HomeComponent = () => {
         localStorage.setItem('cart', JSON.stringify(cart));
     }, [cart]);
 
+    // Product Add to Cart
     const addToCart = (product) => {
         setCart([...cart, product]);
     };
 
+    // Product Remove from Cart
     const removeFromCart = (productToRemove) => {
         setCart(cart.filter(product => product !== productToRemove));
     };
 
+    // Filter by Category
     const handleFilterChange = (event) => {
         setFilter(event.target.value);
     };
 
+    // Sort Text
     const handleSortChange = (event) => {
         setSort(event.target.value);
     };
 
+     // Search Text
     const handleSearchChange = (event) => {
         setSearchTerm(event.target.value);
     };

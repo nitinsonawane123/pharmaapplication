@@ -11,7 +11,7 @@ const ProductDetailsComponent = () => {
     return (
         <div>
             <h2>Product Details</h2>
-            <p>Details of the selected product will be shown here.</p>
+            <p>Details of the selected product will be shown Home page.</p>
             <button className="btn btn-primary" onClick={handleNavigation}>Go to Home</button>
         </div>
     );
