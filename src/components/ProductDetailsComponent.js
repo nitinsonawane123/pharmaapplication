@@ -4,9 +4,9 @@ import Cart from './Cart';
 
 const ProductDetailsComponent = () => {
     const [products] = useState([
-        { id: 1, name: 'Product 1', price: 100, category: 'Category 1', imageUrl: 'https://medcellpharma.com/wp-content/uploads/2023/01/medcellpharma-new-3D-products-2023-11-jpg.webp' },
-        { id: 2, name: 'Product 2', price: 200, category: 'Category 2', imageUrl: 'https://medcellpharma.com/wp-content/uploads/2023/01/medcellpharma-new-3D-products-2023-06-jpg.webp' },
-        { id: 3, name: 'Product 3', price: 300, category: 'Category 1', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA_t3dh7eoG7i2o1TE6MDRN41zWbZllRRvvg&s' },
+        { id: 1, name: 'Product 1', price: 50, category: 'Category 1', imageUrl: 'https://medcellpharma.com/wp-content/uploads/2023/01/medcellpharma-new-3D-products-2023-11-jpg.webp' },
+        { id: 2, name: 'Product 2', price: 60, category: 'Category 2', imageUrl: 'https://medcellpharma.com/wp-content/uploads/2023/01/medcellpharma-new-3D-products-2023-06-jpg.webp' },
+        { id: 3, name: 'Product 3', price: 70, category: 'Category 1', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA_t3dh7eoG7i2o1TE6MDRN41zWbZllRRvvg&s' },
     ]);
 
     const [cart, setCart] = useState(() => {
