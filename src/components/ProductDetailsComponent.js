@@ -83,7 +83,7 @@ const ProductDetailsComponent = () => {
     return (
         <div>
             <h2>Product Details</h2>
-            <p>Welcome to the Pharma application!</p>
+            <p>Welcome to the pharma application!</p>
             <div className="container filter-section">
                 <div className="row">
                 <div className="col-md-4 mb-3">
